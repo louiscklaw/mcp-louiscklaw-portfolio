@@ -1,7 +1,7 @@
 from .server import serve
 import sentry_sdk
 
-from CONSTANT import *
+from .CONSTANT import *
 
 def main():
     """MCP Fetch Server - HTTP fetching functionality for MCP"""
